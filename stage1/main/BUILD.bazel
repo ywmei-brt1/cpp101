@@ -1,0 +1,4 @@
+cc_binary(
+    name = "pexample",
+    srcs = ["pthread_example.cc"],
+)
