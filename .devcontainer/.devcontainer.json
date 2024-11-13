@@ -1,6 +1,0 @@
-//.devcontainer/devcontainer.json
-{
-    "name": "C++ with Bazelisk",
-    "image": "mcr.microsoft.com/devcontainers/universal:linux", // Choose basic image https://aka.ms/ghcs-default-image
-    "postCreateCommand": "if ! command -v bazelisk &> /dev/null; then go install github.com/bazelbuild/bazelisk@latest; fi"
-}
