@@ -1,4 +1,5 @@
 cc_binary(
     name = "pexample",
     srcs = ["pthread_example.cc"],
+	linkopts = ["-pthread"],  # Important: link with the pthread library
 )
